@@ -1,0 +1,10 @@
+# Default initial positions for ros2_control fake system
+
+# initial_positions:
+
+index_q1: 0.0
+middle_q1: 0.0
+ring_q1: 0.0
+pinky_q1: 0.0
+thumb_q1: 0.0
+thumb_q2: 0.0
