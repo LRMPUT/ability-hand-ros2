@@ -20,7 +20,7 @@
         <joint name="${prefix}index_q1">
           <command_interface name="position">
             <param name="min">0.0</param>
-            <param name="max">2.0</param>
+            <param name="max">1.85</param>
           </command_interface>
           <state_interface name="position">
             <param name="initial_value">${xacro.load_yaml(initial_positions_file)['index_q1']}</param>
@@ -33,7 +33,7 @@
         <joint name="${prefix}middle_q1">
           <command_interface name="position">
             <param name="min">0.0</param>
-            <param name="max">2.0</param>
+            <param name="max">1.85</param>
           </command_interface>
           <state_interface name="position">
             <param name="initial_value">${xacro.load_yaml(initial_positions_file)['middle_q1']}</param>
@@ -46,7 +46,7 @@
         <joint name="${prefix}ring_q1">
           <command_interface name="position">
             <param name="min">0.0</param>
-            <param name="max">2.0</param>
+            <param name="max">1.85</param>
           </command_interface>
           <state_interface name="position">
             <param name="initial_value">${xacro.load_yaml(initial_positions_file)['ring_q1']}</param>
@@ -59,7 +59,7 @@
         <joint name="${prefix}pinky_q1">
           <command_interface name="position">
             <param name="min">0.0</param>
-            <param name="max">2.0</param>
+            <param name="max">1.90</param>
           </command_interface>
           <state_interface name="position">
             <param name="initial_value">${xacro.load_yaml(initial_positions_file)['pinky_q1']}</param>
